@@ -2,8 +2,8 @@
 
 Aplikasi manajemen data barang berbasis Laravel untuk tugas mata kuliah **Dasar Komputer dan Pemrograman**. Pengguna dapat mendaftar, login, mengelola data barang (tambah, lihat, ubah, hapus ke sampah), memulihkan barang dari sampah, dan melihat statistik stok yang disimpan di cache.
 
-**Nama:** [Nama Kamu]
-**NIM:** [NIM Kamu]
+**Nama:** [Rifki Mulya]
+**NIM:** [03041282631054]
 **Live Demo:** [https://nama-project.onrender.com](https://nama-project.onrender.com)
 
 ## Daftar Isi
