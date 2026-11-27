@@ -4,7 +4,6 @@ Aplikasi manajemen data barang berbasis Laravel untuk tugas mata kuliah **Dasar 
 
 **Nama:** [Rifki Mulya]
 **NIM:** [03041282631054]
-**Live Demo:** [https://nama-project.onrender.com](https://nama-project.onrender.com)
 
 ## Daftar Isi
 
@@ -15,7 +14,6 @@ Aplikasi manajemen data barang berbasis Laravel untuk tugas mata kuliah **Dasar 
 - Menjalankan Queue dan Schedule
 - Mengakses dari Perangkat Lain
 - Struktur File Penting
-- Catatan untuk Live Demo
 
 ## Fitur
 
@@ -165,10 +163,6 @@ tugas-case3/
 │   └── console.php                                # Jadwal command
 └── Dockerfile                                     # Konfigurasi live demo
 ```
-
-## Catatan untuk Live Demo
-
-Live demo berjalan di layanan hosting gratis Render dengan database PostgreSQL. Karena layanan gratis tidak menjalankan worker dan scheduler di belakang layar, konfigurasi demo memakai `QUEUE_CONNECTION=sync`, sehingga job langsung dikerjakan saat request berjalan. Layanan gratis juga akan tertidur saat lama tidak dipakai, sehingga halaman pertama kali dibuka bisa membutuhkan waktu beberapa puluh detik. Data di database demo dapat dihapus sewaktu-waktu sesuai kebijakan layanan hosting.
 
 ## Lisensi
 
